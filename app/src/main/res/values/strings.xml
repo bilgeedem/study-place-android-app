@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Study Corner</string>
+    <string name="library_picture">Library Picture</string>
+    <string name="coffee_shop">Coffee Shop</string>
+    <string name="coworking_space">Coworking Space</string>
+    <string name="addnote">AddNote</string>
 </resources>

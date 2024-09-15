@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".LibraryActivity">
+
+    <LinearLayout
+        android:id="@+id/backLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="16dp">
+
+        <!-- ImageView für das Back-Icon -->
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="43dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp"
+            android:contentDescription="Back"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_backspace_24" />
+    </LinearLayout>
+
+    <!-- ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/backLayout"
+        android:fillViewport="true"
+        android:layout_marginBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="13dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="166dp"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/library_picture"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_1t"
+                app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/sh"
+                android:layout_width="wrap_content"
+                android:layout_height="166dp"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/library_picture"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_1t"
+                app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/sh2"
+                android:layout_width="wrap_content"
+                android:layout_height="166dp"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/library_picture"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_1t"
+                app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/sh3"
+                android:layout_width="wrap_content"
+                android:layout_height="166dp"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/library_picture"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_1t"
+                app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
