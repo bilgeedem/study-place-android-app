@@ -57,7 +57,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation ("com.google.android.gms:play-services-maps:18.0.2")
-    implementation ("org.osmdroid:osmdroid-android:6.1.10")
+    implementation ("org.osmdroid:osmdroid-android:6.1.14")
 
 
     val room_version = "2.6.1"

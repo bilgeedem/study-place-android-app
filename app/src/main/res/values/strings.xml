@@ -4,4 +4,56 @@
     <string name="coffee_shop">Coffee Shop</string>
     <string name="coworking_space">Coworking Space</string>
     <string name="addnote">AddNote</string>
+    <string name="inhaltliche_beschreibung"><b>Inhaltliche Beschreibung:</b> Im Rahmen eines Seminars habe ich eine Android App entwickelt, die es Nutzer:innen
+        ermöglicht einen Platz zum lernen zu finden. Die App gibt eine gute Übersicht zu den
+        verschiedenen Lern-Plätzen: Bibliotheken, Coffee Shops und Co-Working Spaces </string>
+
+
+    <string name="funktionen"><b>Funktionen:</b> Innerhalb der App hat man neben der Übersicht der Lern-Plätze noch die Möglichkeit die eingebaute Map zu nutzen. Außerdem bietet die App einen Notizen-Abschnitt und einen Timer</string>
+
+
+    <string name="technische_umsetzung"><b>Technische Umsetzung:</b> Die App wurde in Kotlin entwickelt. Für die Anzeige der Notizen in dem Notizen-Abschnitt wurde der RecyclerView und für das Speichern der Daten SQLite genutzt. Für die Map wurde OpenStreetMap
+        verwendet
+    </string>
+
+
+    <string name="location">Location</string>
+    <string name="monday_friday_9_00_17_00_nsaturday_10_00_14_00">Monday - Friday: 9:00 - 17:00\nSaturday: 10:00 - 14:00</string>
+    <string name="description">Description</string>
+    <string name="printer">• Printer</string>
+    <string name="sockets_and_charging_points">• Sockets and charging points</string>
+    <string name="computer_stations">• Computer stations</string>
+    <string name="free_wifi">• Free WiFi</string>
+    <string name="opening_hours">Opening Hours</string>
+    <string name="university_and_city_library_of_cologne">University and City Library of Cologne</string>
+    <string name="city_library_cologne">City Library Cologne</string>
+    <string name="university_library_of_the_cologne_university_of_applied_sciences">University Library of the Cologne University of Applied Sciences</string>
+    <string name="holtz_und_kupfer">Holtz und Kupfer</string>
+    <string name="co_working_space">Co Working Space</string>
+    <string name="betzdorfer_str_2_50679_cologne">Betzdorfer Str. 2, 50679 Cologne</string>
+    <string name="bistro_phil_caf">Bistro / Phil Café</string>
+    <string name="universit_tsstra_e_41_50931_cologne">Universitätsstraße 41, 50931 Cologne</string>
+    <string name="back">Back</string>
+    <string name="coffee_shop_picture">Coffee Shop Picture</string>
+    <string name="the_coffice">The Coffice</string>
+    <string name="charles_de_gaulle_platz_1d_50679_k_ln">Charles-de-Gaulle-Platz 1d, 50679 Köln</string>
+    <string name="z_lpicher_str_233_50937_cologne">Zülpicher Str. 233, 50937 Cologne</string>
+    <string name="high_quality_office_equipment">• High quality office equipment</string>
+    <string name="rooms_can_be_booked_by_the_hour_day_week_or_month">• Rooms can be booked by the hour, day, week or month</string>
+    <string name="universit_tsstra_e_33_50931_cologne">Universitätsstraße 33, 50931 Cologne</string>
+    <string name="weiter">Weiter</string>
+    <string name="zur_ck">Zurück</string>
+    <string name="benutzung_der_app_user_experience">Benutzung der App / User Experience</string>
+    <string name="navigation"><b>Navigation:</b>Im unteren Bereich der App findest man die Navigationsleiste, die die Nutzer:innen schneller zu den wichtigsten Bereichen führt:  </string>
+    <string name="home">• Home: Übersicht zu den Lern Plätzen. Bilder sind anklickbar in der Home Activity</string>
+    <string name="map">• Map: Hier können die Lernplätze direkt auf der Map gefunden werden</string>
+    <string name="notizen">• Notizen: Hier kann man ganz einfach Notizen erstellen</string>
+    <string name="focus_timer">• Focus Timer: Hier ist es möglich einen Focus Timer zu stellen, um währrend der Lernphase Ablenkungen zu minimieren und konzentriert zu bleiben</string>
+    <string name="benutzerfreundlichkeit_ux"><b>Benutzerfreundlichkeit (UX):</b></string>
+    <string name="einfachheit">• Einfachheit: Alle Funktionen sind mit wenigen Klicks erreichbar, ohne unnötige Komplexität. </string>
+    <string name="konsistenz">• Konsistenz: Wiederkehrende Design-Elemente sorgen für Vertrautheit und eine nahtlose Navigation. </string>
+    <string name="entscheidung">Ich habe mich für Kotlin entschieden, da es zahlreiche Vorteile bietet. Dank seiner kompakten und übersichtlichen Syntax ermöglicht Kotlin eine bessere Lesbarkeit des Codes. Zu guter Letzt ist Kotlin auch für die Android-Entwicklung optimiert, was für mich besonders relevant ist. </string>
+    <string name="time_remaining_60_minutes">Time remaining: 60 minutes</string>
+
+
 </resources>

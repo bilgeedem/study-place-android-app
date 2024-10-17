@@ -7,18 +7,17 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import android.widget.Toast
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.google.android.material.imageview.ShapeableImageView
 
 
-class MainActivity : AppCompatActivity() {
+class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
 
 
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
 
         //click on text: View All and change to new Activity
 
@@ -38,23 +37,44 @@ class MainActivity : AppCompatActivity() {
         val imageView2: ShapeableImageView = findViewById(R.id.imageView2)
         val imageView3: ShapeableImageView = findViewById(R.id.imageView3)
 
+        val imageView4: ShapeableImageView = findViewById(R.id.rated1)
+        val imageView5: ShapeableImageView = findViewById(R.id.rated2)
+        val imageView6: ShapeableImageView = findViewById(R.id.rated3)
+
         imageView1.setOnClickListener {
-            Toast.makeText(this, "Library!", Toast.LENGTH_SHORT).show()
+         //   Toast.makeText(this, "Library!", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, LibraryActivity::class.java)
             startActivity(intent)
         }
 
         // Set OnClickListener for imageView2
         imageView2.setOnClickListener {
-            Toast.makeText(this, "Coffee Shop!", Toast.LENGTH_SHORT).show()
+           // Toast.makeText(this, "Coffee Shop!", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, CoffeeShopActivity::class.java)
             startActivity(intent)
         }
 
         // Set OnClickListener for imageView3
         imageView3.setOnClickListener {
-            Toast.makeText(this, "Co-Working Space!", Toast.LENGTH_SHORT).show()
+           // Toast.makeText(this, "Co-Working Space!", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, CoWorkingActivity::class.java)
+            startActivity(intent)
+        }
+
+        imageView4.setOnClickListener {
+            // Toast.makeText(this, "Co-Working Space!", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, LibraryTwoActivity::class.java)
+            startActivity(intent)
+        }
+
+        imageView5.setOnClickListener {
+            // Toast.makeText(this, "Co-Working Space!", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, CoffeeShopTwoActivity::class.java)
+            startActivity(intent)
+        }
+        imageView6.setOnClickListener {
+            // Toast.makeText(this, "Co-Working Space!", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, LibraryOneActivity::class.java)
             startActivity(intent)
         }
 

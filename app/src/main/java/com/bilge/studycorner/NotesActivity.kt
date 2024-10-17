@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bilge.studycorner.databinding.ActivityAddNotesBinding
 import com.bilge.studycorner.databinding.ActivityNotesBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -49,7 +48,7 @@ class NotesActivity : AppCompatActivity() {
                     startActivity(
                         Intent(
                             applicationContext,
-                            MainActivity::class.java
+                            Home::class.java
                         )
                     )
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)

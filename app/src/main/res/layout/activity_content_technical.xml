@@ -22,14 +22,41 @@
         android:layout_gravity="center_horizontal"
         android:padding="16dp"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dies ist ein fester Text"
+        android:text="@string/inhaltliche_beschreibung"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/funktionen"
         android:textSize="16sp"
         android:padding="16dp"/>
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/technische_umsetzung"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/nextButton"

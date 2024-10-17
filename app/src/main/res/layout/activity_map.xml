@@ -9,14 +9,19 @@
     android:background="@color/background"
     tools:context=".MapActivity">
 
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavigation"
+        android:layout_alignParentTop="true" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="66dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/bottom_background"
@@ -29,4 +34,3 @@
         app:menu="@menu/bottom_menu" />
 
 </RelativeLayout>
-

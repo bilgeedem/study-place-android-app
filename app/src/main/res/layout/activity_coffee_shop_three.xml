@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="16dp"
+    tools:context=".CoffeeShopThreeActivity">
+
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cofeeshopThreeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/coffee_shop_picture"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_cc3"
+        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_coffice"
+        android:textSize="18sp"
+        android:textColor="@color/IconSelected"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/locationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="18sp"
+        android:textColor="@color/IconSelected"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/locationContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/charles_de_gaulle_platz_1d_50679_k_ln"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/openingHoursTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opening_hours"
+        android:textSize="18sp"
+        android:textColor="@color/IconSelected"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/openingHoursContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monday_friday_9_00_17_00_nsaturday_10_00_14_00"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/descriptionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textSize="18sp"
+        android:textColor="@color/IconSelected"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:id="@+id/descriptionList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/free_wifi"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sockets_and_charging_points"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+

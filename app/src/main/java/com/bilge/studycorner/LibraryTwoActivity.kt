@@ -8,31 +8,19 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class UX_Activity : AppCompatActivity() {
+class LibraryTwoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_ux)
+        setContentView(R.layout.activity_library_two)
 
-
-
-        val button = findViewById<Button>(R.id.nextButton2)
-        button.setOnClickListener {
-
-            val intent = Intent(this, Home::class.java)
-            startActivity(intent)
-        }
 
         val button2 = findViewById<Button>(R.id.backButton2)
         button2.setOnClickListener {
 
-            val intent = Intent(this, ContentTechnicalActivity::class.java)
+            val intent = Intent(this, LibraryActivity::class.java)
             startActivity(intent)
         }
-
-
-
-
-
     }
 }

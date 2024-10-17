@@ -37,7 +37,7 @@ class TimerActivity : AppCompatActivity() {
         stopButton = findViewById(R.id.stopButton)
 
         // Set the initial time and progress in the UI
-        timerTextView.text = "Time remaining: ${initialTime / 1000} seconds"
+        timerTextView.text = "Time remaining: ${initialTime / 1000} minutes"
         progressBar.max = (initialTime / 1000).toInt() // Progress bar max is the total time in seconds
         progressBar.progress = progressBar.max
 
@@ -65,7 +65,7 @@ class TimerActivity : AppCompatActivity() {
                     startActivity(
                         Intent(
                             applicationContext,
-                            MainActivity::class.java
+                            Home::class.java
                         )
                     )
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)

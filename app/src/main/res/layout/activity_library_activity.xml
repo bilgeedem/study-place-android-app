@@ -8,28 +8,28 @@
     android:background="@color/background"
     tools:context=".LibraryActivity">
 
+
     <LinearLayout
         android:id="@+id/backLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:padding="16dp">
-
-        <!-- ImageView für das Back-Icon -->
-        <ImageView
-            android:id="@+id/back"
-            android:layout_width="43dp"
-            android:layout_height="42dp"
-            android:layout_alignParentTop="true"
-            android:layout_margin="10dp"
-            android:layout_marginStart="10dp"
+        <!-- TextView at the top -->
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="5dp"
-            android:contentDescription="Back"
-            android:scaleType="centerCrop"
-            android:src="@drawable/baseline_backspace_24" />
+            android:text="LIBRARY "
+            android:fontFamily="sans-serif-black"
+            android:textSize="25sp"
+
+             />
+
+
     </LinearLayout>
 
     <!-- ScrollView -->
@@ -47,50 +47,48 @@
             android:padding="13dp">
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/libraryOne"
                 android:layout_width="wrap_content"
                 android:layout_height="166dp"
                 android:layout_margin="10dp"
                 android:layout_marginEnd="8dp"
                 android:contentDescription="@string/library_picture"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_1t"
+                android:src="@drawable/ic_l1"
                 app:shapeAppearanceOverlay="@style/roundedImageView" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/sh"
+                android:id="@+id/libraryTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="166dp"
                 android:layout_margin="10dp"
                 android:layout_marginEnd="8dp"
                 android:contentDescription="@string/library_picture"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_1t"
+                android:src="@drawable/ic_l2"
                 app:shapeAppearanceOverlay="@style/roundedImageView" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/sh2"
+                android:id="@+id/libraryThree"
                 android:layout_width="wrap_content"
                 android:layout_height="166dp"
                 android:layout_margin="10dp"
                 android:layout_marginEnd="8dp"
                 android:contentDescription="@string/library_picture"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_1t"
-                app:shapeAppearanceOverlay="@style/roundedImageView" />
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/sh3"
-                android:layout_width="wrap_content"
-                android:layout_height="166dp"
-                android:layout_margin="10dp"
-                android:layout_marginEnd="8dp"
-                android:contentDescription="@string/library_picture"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_1t"
+                android:src="@drawable/ic_l3"
                 app:shapeAppearanceOverlay="@style/roundedImageView" />
 
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/fixedButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
 
 </RelativeLayout>

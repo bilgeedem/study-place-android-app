@@ -13,23 +13,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:padding="16dp">
 
-        <!-- ImageView für das Back-Icon -->
-        <ImageView
-            android:id="@+id/back2"
-            android:layout_width="43dp"
-            android:layout_height="42dp"
-            android:layout_alignParentTop="true"
-            android:layout_margin="10dp"
-            android:layout_marginStart="10dp"
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="5dp"
-            android:contentDescription="Back2"
-            android:scaleType="centerCrop"
-            android:src="@drawable/baseline_backspace_24" />
+            android:text="COFFEE SHOP "
+            android:fontFamily="sans-serif-black"
+            android:textSize="25sp"
+
+            />
+
     </LinearLayout>
 
     <!-- ScrollView -->
@@ -48,50 +46,49 @@
             android:padding="13dp">
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/CoffeeShopOne"
                 android:layout_width="wrap_content"
                 android:layout_height="166dp"
                 android:layout_margin="10dp"
                 android:layout_marginEnd="8dp"
-                android:contentDescription="@string/library_picture"
+                android:contentDescription="Coffee Shop Picture"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_2t"
+                android:src="@drawable/ic_cc1"
                 app:shapeAppearanceOverlay="@style/roundedImageView" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/sh"
+                android:id="@+id/CoffeeShopTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="166dp"
                 android:layout_margin="10dp"
                 android:layout_marginEnd="8dp"
-                android:contentDescription="@string/library_picture"
+                android:contentDescription="Coffee Shop Picture"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_2t"
+                android:src="@drawable/ic_cc2"
                 app:shapeAppearanceOverlay="@style/roundedImageView" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/sh2"
+                android:id="@+id/CoffeeShopThree"
                 android:layout_width="wrap_content"
                 android:layout_height="166dp"
                 android:layout_margin="10dp"
                 android:layout_marginEnd="8dp"
-                android:contentDescription="@string/library_picture"
+                android:contentDescription="Coffee Shop Picture"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_2t"
+                android:src="@drawable/ic_cc3"
                 app:shapeAppearanceOverlay="@style/roundedImageView" />
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/sh3"
-                android:layout_width="wrap_content"
-                android:layout_height="166dp"
-                android:layout_margin="10dp"
-                android:layout_marginEnd="8dp"
-                android:contentDescription="@string/library_picture"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_2t"
-                app:shapeAppearanceOverlay="@style/roundedImageView" />
 
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/fixedButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
 
 </RelativeLayout>

@@ -29,7 +29,7 @@
     <style name="Theme.App.SplashScreen"  parent="Theme.SplashScreen"  >
 
         <item name="windowSplashScreenBackground">@color/white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_aniicon2</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_scon</item>
         <item name="postSplashScreenTheme">@style/Base.Theme.StudyCorner</item>
 
     </style>

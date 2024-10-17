@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:background="@color/background"
@@ -18,34 +18,98 @@
         android:id="@+id/headerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Benutzung der App / User Experience"
+        android:text="@string/benutzung_der_app_user_experience"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:padding="16dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dies ist ein fester Text"
+        android:text="@string/navigation"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
         android:textSize="16sp"
         android:padding="16dp"/>
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/map"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notizen"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/focus_timer"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/benutzerfreundlichkeit_ux"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/einfachheit"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/konsistenz"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+</LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/nextButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Weiter"
+        android:text="@string/weiter"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
     <Button
         android:id="@+id/backButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Zurück"
+        android:text="@string/zur_ck"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
 
